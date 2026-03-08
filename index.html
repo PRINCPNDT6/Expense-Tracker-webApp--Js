@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker --App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="uprBox">
+            <h2>Expense Tracker</h2>
+
+            <div class="balanceBox">
+                <span>$ 3000</span>
+                <span class="span">your balance</span>
+            </div>
+           <div class="totalInfo">
+             <div class="incomeBox totalBox">
+                <span>Total Income </span>
+                <span>$ 3000 </span>
+            </div>
+            <div class="ExpenseBox totalBox">
+                <span>Total Expense</span>
+                <span> $ 150</span>
+            </div>
+           </div>
+        </div>
+        <section class="Transactions">
+            <div class="heading">
+                <h3>Transactions History</h3>
+                <hr>
+            </div>
+
+            <div class="historyBox">
+                <ul>
+                    <li>Youtube Income <span class="historyBox-Amount" >+ $ 3000</span><span class="status credit">C</span></li>
+                    <li>Gym fees <span class="historyBox-Amount">- $ 3000</span><span class="status debit">D</span></li>
+                    <li>Salary <span class="historyBox-Amount">+ $ 27000</span><span class="status credit">C</span></li>
+                    <li>Room Rent<span class="historyBox-Amount">- $ 7000</span><span class="status debit">D</span></li>
+                    <li>Youtube Income <span class="historyBox-Amount" >+ $ 3000</span><span class="status credit">C</span></li>
+                    <li>Gym fees <span class="historyBox-Amount">- $ 3000</span><span class="status debit">D</span></li>
+                    <li>Salary <span class="historyBox-Amount">+ $ 27000</span><span class="status credit">C</span></li>
+                    <li>Room Rent<span class="historyBox-Amount">- $ 7000</span><span class="status debit">D</span></li>
+                    <li>Youtube Income <span class="historyBox-Amount" >+ $ 3000</span><span class="status credit">C</span></li>
+                    <li>Gym fees <span class="historyBox-Amount">- $ 3000</span><span class="status debit">D</span></li>
+                    <li>Salary <span class="historyBox-Amount">+ $ 27000</span><span class="status credit">C</span></li>
+                    <li>Room Rent<span class="historyBox-Amount">- $ 7000</span><span class="status debit">D</span></li>
+                    <li>Youtube Income <span class="historyBox-Amount" >+ $ 3000</span><span class="status credit">C</span></li>
+                    <li>Gym fees <span class="historyBox-Amount">- $ 3000</span><span class="status debit">D</span></li>
+                    <li>Salary <span class="historyBox-Amount">+ $ 27000</span><span class="status credit">C</span></li>
+                    <li>Room Rent<span class="historyBox-Amount">- $ 7000</span><span class="status debit">D</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footerBox">
+            <!-- <h3>Add Transaction</h3> -->
+            <form class="form" id="TransactionsForm">
+               <div class="userInfoBox">
+                    <div class="userInfo ">
+                        <label for="text">Text</label>
+                        <input type="text" placeholder="Enter Text">
+                    </div>
+                    <div class="userInfo ">
+                        <label for="Amount">Amount</label>
+                        <input type="text" placeholder="Enter Amount">
+                    </div>
+               </div>
+                <div class="button">
+                    <button type="submit" id="Income" class="incomeBox">Income</button>
+                    <button type="submit" id="Expense" class="ExpenseBox">Expense</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

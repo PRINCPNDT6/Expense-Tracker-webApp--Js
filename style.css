@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: #fff;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 340px;
+    height: 100vh;
+    border-radius: 20px;
+
+}
+
+.uprBox{
+    /* background-color: #212121;
+    color: #fff; */
+    /* border: 1px solid; */
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.balanceBox{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:crimson;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+.balanceBox span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-weight: 500;
+
+}
+ 
+.totalInfo{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalBox{
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.incomeBox{
+    background-color: brown;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+}
+.ExpenseBox{
+    background-color:crimson;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+.Transactions{
+    border: 1px solid;
+    width: 100%;
+    /* padding: 10px; */
+    background-color: #212121;
+    color: #fff;
+    box-sizing: border-box;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.heading{
+    /* border: 1px solid; */
+    width: 100%;
+    /* padding: 5px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 6%;
+
+
+}
+
+.heading h3{
+    margin-bottom: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+.heading hr{
+    /* color: chartreuse; */
+    background-color: chartreuse;
+    height: 1.3px;
+    border: none;
+}
+
+.historyBox{
+    /* border: 1px solid black; */
+    height: 89%;
+
+}
+
+.historyBox ul{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.historyBox ul li{
+    /* border: 1px solid; */
+    margin: 3px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 0, 0.619);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.status{
+    position:absolute;
+    right: 0;
+     
+    height: 100%;
+    box-sizing: border-box;
+    width: 30px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit{
+    background-color:darkmagenta;
+}
+.debit{
+    background-color:darkgreen;
+
+}
+
+.historyBox-Amount{
+    margin-right: 30px;
+}
+
+.footerBox{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 100%;
+}
+.userInfoBox{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 95%;
+    box-sizing: border-box;
+
+
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+    /* border: 1px solid; */
+    /* margin: 4px; */
+    width: 150px;
+    /* background-color: #887272; */
+    border-radius: 10px;
+
+
+}
+
+.userInfo label{
+     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+
+}
+.userInfo input{
+    width: 90%;
+     
+    /* border: none; */
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #000;
+
+
+}
+
+.button{
+    /* border: 1px solid; */
+    text-align: center;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.button button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    
+
+
+}
